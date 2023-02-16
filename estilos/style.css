@@ -12,7 +12,12 @@ html, body{
 main{
     height: 100vh;
     position: relative;
-    background-color: blueviolet;
+    
+}
+body{
+    background: url('../imagens/fundo-madeira.jpg') no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 #telefone{
     height: 627px;
@@ -23,5 +28,13 @@ main{
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    background: blue url('../imagens/frame-iphone.png') no-repeat;
+    background: url('../imagens/frame-iphone.png') no-repeat;
+}
+#tela{
+    position: relative;
+    top: 80px;
+    left: 22px;
+    width: 269px;
+    height: 471px;
+    background-size: cover;
 }
